@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "noEmitOnError": false,
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "strict": true,
+    "target": "ES2019"
+  },
+  "include": [
+    "src",
+    "../../bazel-out/host/bin/ts/twirp/twirpscript/**/*.ts",
+    "../../bazel-out/darwin-fastbuild/bin/ts/twirp/twirpscript/**/*.ts",
+    "../../bazel-out/darwin_arm64-fastbuild/bin/ts/twirp/twirpscript/**/*.ts",
+    "../../bazel-out/k8-fastbuild/bin/ts/twirp/twirpscript/**/*.ts",
+    "../../bazel-out/x64_windows-fastbuild/bin/ts/twirp/twirpscript/**/*.ts",
+    "../../bazel-out/darwin-dbg/bin/ts/twirp/twirpscript/**/*.ts",
+    "../../bazel-out/k8-dbg/bin/ts/twirp/twirpscript/**/*.ts",
+    "../../bazel-out/x64_windows-dbg/bin/ts/twirp/twirpscript/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package test;
+
+service Service {
+  rpc Create (CreateRequest) returns (CreateResponse);
+}
+
+message CreateRequest {
+  string some_id = 1;
+  repeated Entry entries = 2;
+
+  message Entry {
+    string other_id = 1;
+  }
+}
+
+message CreateResponse {
+  string status = 1;
+}

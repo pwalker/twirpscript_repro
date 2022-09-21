@@ -1,0 +1,12 @@
+{
+  "name": "twirpscript_test",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "twirpscript": "^0.0.62"
+  },
+  "devDependencies": {
+    "typescript": "4.8.3"
+  }
+}
+
